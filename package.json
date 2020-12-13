@@ -1,0 +1,17 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "B.Vinavatani",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
